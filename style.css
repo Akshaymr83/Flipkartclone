@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navabr .dropdown-item ,span {
+  margin-left: 17px;
+  
+}
+ .dropdown-item {
+    padding: 0.8rem 1.5rem;
+   
+}
+.navbar .form-inline .form-control {
+    display: inline-block;
+    width: 400px;
+    vertical-align: middle;
+}
+#collapsibleNavbar ,span{
+    margin-left: 17px;
+
+}
+.navbar ul , li{
+    list-style-type: none;
+
+}
+.navbar ul ,li  , a {
+    color: black;
+}
+#signp ,a {
+    display: block;
+    width: 100%;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+#cart{
+    display: flex;
+    margin-left: 110px;
+}
+div #cart{
+    gap: 100px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -171px;
+    margin-left: 0px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    padding-left: 155px;
+    padding-right: 63px;
+    text-align: center;
+    color: black;
+    
+}
+
+.ad{
+    background-color: rgb(255, 252, 236);
+    height: 80vh;
+    margin-top: -35px;
+}
+
+#demo{
+    margin-top: 220px;
+}
+
+.card p{
+    color: black;
+}
+
+#phones img {
+    transition: transform 0.3s;
+}
+  
+  #phones img:hover {
+    transform: scale(1.1);
+  
+}
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-section h3 {
+    color: #333;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 8px;
+}
+
+/* .footer-section a {
+    text-decoration: none;
+    color: #555;
+} */
+
+.footer-section a:hover {
+    color: #ff6600;
+}
+#contact {
+    background-color: rgb(41, 40, 40);  
+   
+}
+#contact .footer ,h6{
+  color: white;
+}
+#contact .footer ,p{
+    color: rgb(226, 217, 217);
+    margin-top: 40px;
+}
+
+  @media screen and (max-width: 460px)
+
+  {
+    #yellowicons
+    {
+    display: flex;
+    flex-direction: column;
+    overflow:hidden;
+    margin-left: 200px;    
+    }
+}
+   
+.last-footer ul li{
+    margin-left: 50px;
+}
+.col h6{
+    color: black;
+}
